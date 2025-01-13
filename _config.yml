@@ -1,9 +1,15 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
+title: Ривер
+author: Спящая Мантикора (Sleeping Manticora)
 logo: logo.png
+
+sphinx:
+  config:
+    html_show_copyright: false
+  html_context:
+    default_mode: dark
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -28,5 +34,11 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: true
-  use_repository_button: true
+  favicon: favicon.png
+  use_issues_button: false
+  use_repository_button: false
+  html:
+    extra_footer: |
+        <p>Данный материал распространяется на условиях Creative Commons «Attribution-NonCommercial-ShareAlike» («Атрибуция-Некоммерчески-
+           СохранениеУсловий») 4.0 Всемирная (CC BY-NC-SA 4.0). Чтобы получить копию лицензии, перейдите по ссылке https://creativecommons.org/licenses/by-nc-sa/4.0
+        </p>

@@ -1,0 +1,83 @@
+@link-color:        #e58452;
+@link-color-hover:  darken(@link-color, 20%);
+@header-color:      #ff4a00;
+@text-color: 		#ffddbf;
+@text-color2:		#ffa557;
+@text-color3:		darken(@text-color, 20%);
+@background-color: 	#282025;
+@background-color2:	#2f2f38;
+@background-color3:	lighten(@background-color, 20%);
+
+
+
+.reference, .left-prev p, .right-next p {
+	color: @link-color !important;
+	text-decoration: none !important;
+	&:hover {
+		color: @link-color-hover !important;	
+	}
+}
+
+.bg-primary {
+	background-color: pst-color-background !important;
+	filter: none !important;
+}
+
+h1, h2, h3, h4, h5, h6, p.caption {
+	color: @header-color !important;
+}
+
+/*.header-article-items__end {
+	visibility: hidden;
+}*/
+
+/*body,
+.bd-sidebar-secondary, 
+.bd-sidebar-primary,
+.bd-header-article
+ {
+    background-color: @background-color !important;
+}*/
+
+/*blockquote {
+	color: @text-color !important;
+	background-color: @background-color2 !important;
+	border-left: .25em solid @header-color;
+	& p {
+		color: @text-color !important;	
+	}
+}*/
+/*
+section ul, section p {
+    color: @text-color !important;
+}*/
+
+strong {
+	color: @text-color2 !important;
+}
+
+html[data-theme="dark"] {
+  --pst-color-primary: @header-color;
+  --pst-color-text-base: @text-color;
+  --pst-color-surface: @background-color2;
+  --pst-color-border: @header-color;
+  --pst-color-background: @background-color;
+  --pst-color-link: @link-color;
+  --bs-primary-rgb: @background-color;
+  --pst-color-on-background: @background-color3;
+  --pst-color-text-muted: @text-color3;
+  --pst-color-muted: @text-color3;
+}
+
+html[data-theme="light"] {
+  --pst-color-primary: @header-color;
+  --pst-color-text-base: @text-color;
+  --pst-color-surface: @background-color2;
+  --pst-color-border: @header-color;
+  --pst-color-background: @background-color;
+  --pst-color-link: @link-color;
+  --bs-primary-rgb: @background-color;
+  --pst-color-on-background: @background-color3;
+  --pst-color-text-muted: @text-color3;
+  --pst-color-muted: @text-color3;
+}

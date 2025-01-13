@@ -3,7 +3,32 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Общая механика
+    chapters:
+    - file: obstacle
+    - file: aftermath
+    - file: rest
+    - file: player_interaction
+    - file: personality_scale
+    - file: addon_milestones
+  - caption: Создание персонажа
+    chapters:
+    - file: pers_idea
+    - file: pers_detail
+    - file: pers_aspects
+    - file: pers
+    - file: pers_threads
+  - caption: Боевая система
+    chapters:
+    - file: battle_event
+    - file: battle_moves
+    - file: battle_rules
+    - file: battle_massive
+    - file: battle_enemy
+  - caption: Система магии
+    chapters:
+    - file: magic_main
+    - file: magic_might
+    - file: magic_direct
+    - file: magic_wilds
