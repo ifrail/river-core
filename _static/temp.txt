@@ -1,0 +1,7 @@
+.header-article-items__end {
+	visibility: hidden;
+}
+
+
+```{tableofcontents}
+```

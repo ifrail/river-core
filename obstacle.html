@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Препятствие &#8212; Ривер</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="_static/myfile.css?v=041c51ac" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'obstacle';</script>
+    <link rel="icon" href="_static/favicon.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Последствия" href="aftermath.html" />
+    <link rel="prev" title="РИВЕР НРИ" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Ривер - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Ривер - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    РИВЕР НРИ
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Общая механика</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Препятствие</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aftermath.html">Последствия</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rest.html">Отдых</a></li>
+<li class="toctree-l1"><a class="reference internal" href="player_interaction.html">Взаимодействие между игроками</a></li>
+<li class="toctree-l1"><a class="reference internal" href="personality_scale.html">Шкала личности</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addon_milestones.html">Опыт и Новые уровни</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Создание персонажа</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="pers_idea.html">Все начинается с идеи!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pers_detail.html">Детализация персонажа</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pers_aspects.html">Определение архетипов и аспектов</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pers.html">Особенности личности</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pers_threads.html">Черты</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Боевая система</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="battle_event.html">Боевые столкновения</a></li>
+<li class="toctree-l1"><a class="reference internal" href="battle_moves.html">Действия игроков в боевом столкновении</a></li>
+<li class="toctree-l1"><a class="reference internal" href="battle_rules.html">Что нужно учитывать</a></li>
+<li class="toctree-l1"><a class="reference internal" href="battle_massive.html">Боевые столкновения с большим количеством участников</a></li>
+<li class="toctree-l1"><a class="reference internal" href="battle_enemy.html">Противники</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Система магии</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="magic_main.html">Посвящение в тайное</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic_might.html">Могущество заклинанителя</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic_direct.html">Направления усиления заклинания</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic_wilds.html">Нестабильность магии</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/obstacle.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Препятствие</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Бросок и его результаты</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Преимущества и помехи</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#obstacle4">Сложность препятствия</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Определение сложности</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#obstacle6">Опасность препятствия</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Эффективность заявки</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="id1">
+<h1>Препятствие<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<p>Препятствие — это любая ситуация, в которой игровой мир противодействует игроку, например: закрытый на ключ сундук; шаткий мост; торговец, не согласный на скидку; толпа орков, жаждущая смерти персонажей. Если игрок решает преодолеть возникшее препятствие, то Мастером назначается проверка, в результате которой игрок совершает бросок, успешность которого и определяет исход преодоления препятствия.</p>
+<section id="id2">
+<h2>Бросок и его результаты<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<p>В Ривере используются только шестигранные кости (далее к6), из которых игрок образует набор (далее пул), складывая уровень развития <a class="reference internal" href="pers_detail.html#pers-detail-p"><span class="std std-ref">подхода</span></a> и <a class="reference internal" href="pers_aspects.html#pers-aspects-1"><span class="std std-ref">архетипа</span></a> и наличия <a class="reference internal" href="pers_aspects.html#pers-aspects-2"><span class="std std-ref">аспекта</span></a>, наиболее подходящего к его заявке, сделанной для преодоления <strong>препятствия</strong>. Подробнее о подходах, архетипах и аспектах вы узнаете в разделе <a class="reference internal" href="pers_aspects.html"><span class="doc std std-doc">Создание персонажа</span></a>, а пока нам достаточно знания того, что они существуют и образуют пул броска.</p>
+<p>Совершив бросок, игрок подсчитывает количество успехов, которые определяется как сумма костей на которых выпали <strong>4, 5 и 6</strong> (значения 1, 2 и 3 в подсчете не участвуют) и говорит полученное значение <strong>Мастеру</strong>, который сравнивает его со сложностью препятствия и описывает результат, исходя из следующих категорий:</p>
+<ul class="simple">
+<li><p><strong>Провал</strong> — игрок не добивается поставленных целей и <strong>Мастер</strong> описывает, что происходит, но также, он может позволить игроку достигнуть цели с очень тяжелыми последствиями. В любом случае рекомендуется не сводить это к простому “у тебя не получилось”, а дополнять игру новыми факторами давления на игроков для развития сцены.</p></li>
+<li><p><strong>Частичный успех</strong> — игрок добился своей цели, т.е. достигает успеха, но ему необходимо заплатить дополнительную цену. Подробнее о вариантах которые может использовать <strong>Мастер</strong> можно посмотреть в разделе <a class="reference internal" href="aftermath.html"><span class="doc std std-doc">Последствия</span></a>.</p></li>
+<li><p><strong>Полный успех</strong> — игрок полностью достигает своей цели и <strong>Мастер</strong> не вправе вмешиваться. Здесь стоит уделить внимание описанию того, как игроку удалось блеснуть своими способностями в преодолении этого конфликта.</p></li>
+</ul>
+<p>Также Мастер может использовать:</p>
+<ul class="simple">
+<li><p><strong>Полный провал</strong> — когда игрок не выбросил ни одного успеха, как более жесткий вариант провала.</p></li>
+<li><p><strong>Сверхуспех</strong> — когда игрок бросил больше успехов чем требуется для достижения полного успеха. В этом случае Мастер может дополнительно наградить игрока по своему усмотрению или обговорить награду с ним.</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Помните</strong>: если у игрока пул броска равен нулю, то бросок не выполняется, а значит игрок автоматически проваливает проверку.</p>
+</div></blockquote>
+<section id="id3">
+<h3>Преимущества и помехи<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+<p>Преимущества и помехи могут увеличить или уменьшить пул игрока при прохождении проверки, что напрямую влияет на успешность заявки. Они могут возникнуть из-за описания сцены, использования ресурсов, качественной экипировки, черт персонажа и т.д.</p>
+<p><strong>Преимущество</strong> — игрок добавляет к пулу своего броска одну дополнительную кость. Преимуществ может быть несколько, но они могут складываться только от разных источников. Рассмотрим подробнее какие источники могут дать преимущество для игрока:</p>
+<ul class="simple">
+<li><p><strong>Описательный фактор сцены</strong> — подкрался незаметно, спрыгнул сверху на врага, ослепил вспышкой света, нанес увечье. Игрок может использовать имеющиеся факторы или создавать новые своими заявками.</p></li>
+<li><p><strong>Экипировка и ресурсы</strong> — меч хорошего качества, использование лечебной травы при лечении, взобраться, используя крюк-кошку.</p></li>
+<li><p><strong>Черты персонажа</strong> — полученные от расы, вознаграждение за квенту или заслуженные в ходе приключения, такие черты могут давать преимущество, если в них это описано.</p></li>
+<li><p><strong>Использование шкалы личности</strong> — подробнее об этом можно прочесть в соответствующем разделе.</p></li>
+<li><p><strong>Помощь оказанная другими персонажами</strong> — подробнее об этом можно прочесть в соответствующем разделе.</p></li>
+</ul>
+<p><strong>Помеха</strong> — игрок убирает из пула своего броска одну кость. Если количество костей опускается до нуля, то игрок не может совершить бросок и ему автоматически засчитывается провал (полный провал, если вы его используете). Помех может быть несколько, но они могут складываться только от разных источников. Рассмотрим подробнее какие источники могут дать помеху для игрока:</p>
+<ul class="simple">
+<li><p><strong>Описательный фактор сцены</strong> — персонажа застали врасплох, сбили с ног, отравили, попытка разглядеть что-то в полутьме или взобраться по мокрой от дождя лестнице, стрельба на звук, использование тяжелого оружия в узком пространстве.</p></li>
+<li><p><strong>Экипировка и ресурсы</strong> — ржавый меч, тупой нож, неудобный доспех и т.д.</p></li>
+<li><p><strong>Черты персонажа</strong> — полученные в ходе приключения, такие черты могут давать помеху на определенные действия, если в них это описано.</p></li>
+<li><p><strong>Тяжелые последствия</strong> — каждое такое последствие дает помеху на определенные <strong>подходы</strong>. Подробнее можно прочитать в соответствующем разделе.</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Помните</strong>: Преимущества и помехи складываются только от разных источников.</p>
+</div></blockquote>
+<p>Если персонаж одновременно получил и преимущества и помехи, то вычтите одно из другого, итоговое влияние окажет только остаток. Так, если больше оказалось преимуществ, то остаток покажет итоговое количество преимуществ. Если больше было помех, то наоборот.</p>
+<blockquote>
+<div><p><em><strong>Пример</strong>: Синди, прячась на ящиках под потолком ангара, наблюдает за охранником, патрулирующим склад. Выбрав подходящий момент она обрушивается на него сверху, пытаясь оглушить. В этом случае Синди получает только одно преимущество, предположим за внезапность, так как ее преимущество от атаки сверху происходит от того же источника, а именно описания сцены.</em></p>
+</div></blockquote>
+</section>
+</section>
+<section id="obstacle4">
+<span id="id4"></span><h2>Сложность препятствия<a class="headerlink" href="#obstacle4" title="Link to this heading">#</a></h2>
+<p>Сложность препятствия определяет насколько компетентным должен быть персонаж игрока, чтобы добиться успеха в своей проверке. Сложность не зависит от способностей персонажей, а зависит от самой сцены, и именно с этим параметром сравнивается количество выпавших успехов во время проверки. В Ривере <strong>сложность</strong> определяет границу <strong>частичного успеха</strong>. Граница <strong>полного успеха</strong> всегда на три успеха больше <strong>частичного</strong> и для удобства далее будет указываться в скобках. При формировании препятствия <strong>Мастер</strong> может опираться на следующий список:</p>
+<ul class="simple">
+<li><p><strong>Легкое</strong> — 1 (4) успеха. Легкая задача для любого персонажа. <strong>Полного успеха</strong> могут добиться даже не компетентные персонажи с подходящим архетипом.</p></li>
+<li><p><strong>Среднее</strong> — 2 (5) успеха. Посильная задача для любого персонажа. <strong>Полного успеха</strong> могут добиться персонажи с высоко развитыми подходами или обладающие подходящими архетипами и аспектами.</p></li>
+<li><p><strong>Тяжелое</strong> — 3 (6) успеха. Сложная задача для любого персонажа. <strong>Полного успеха</strong> могут добиться персонажи с развитыми подходами и обладающие подходящими архетипами и аспектами.</p></li>
+<li><p><strong>Очень тяжелое</strong> — 4 (7) успеха. Сложная проверка для персонажей без подходящего архетипа, даже с хорошо развитыми подходами. <strong>Полного успеха</strong> могут добиться персонажи с хорошо развитыми подходами, архетипами и аспектами.</p></li>
+<li><p><strong>Почти невозможное</strong> — 5 (8) успехов. Крайне сложная проверка для персонажей без подходящего архетипа, даже с полностью развитыми подходами. <strong>Полного успеха</strong> могут добиться узкие специалисты с прекрасно развитыми подходами, архетипами и аспектами или использовав преимущества.</p></li>
+<li><p><strong>Невозможное</strong> — 6 (9) успехов и выше. Практически невозможная проверка для персонажей без подходящего архетипа, даже с прекрасно развитым подходом. <strong>Полного успеха</strong> могут добиться узкие специалисты с максимальной компетентностью, использовав преимущества.</p></li>
+</ul>
+<blockquote>
+<div><p><strong>Помните</strong>: Для любого препятствия, без отягчающих или облегчающих обстоятельств, которые должны быть озвучены Мастером игрокам, сложность меняться не может.</p>
+</div></blockquote>
+<section id="id5">
+<h3>Определение сложности<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
+<p>Чтобы определить сложность препятствия в процессе игры, можно воспользоваться простым правилом. Возьмем за точку отсчета среднюю сложность (граница частичного успеха: 2). Далее если вы в описании препятствия используете факторы, облегчающие прохождение проверки, то вычтите единицу из границы частичного успеха за каждый такой термин. Если порог опустился до нуля, то игрок может преодолеть препятствие без броска. Если вы наоборот, используете факторы, которые усложняют прохождение проверки, то увеличьте границу частичного успеха на единицу за каждый такой фактор. Если игрок в своей заявке указывает часть объекта в качестве цели, то это тоже является усложняющим сцену фактором, подробнее можно прочитать в <a class="reference internal" href="battle_rules.html#battle-rules4"><span class="std std-ref">этом</span></a> разделе.</p>
+<ul class="simple">
+<li><p><em><strong>Описание</strong>: Старая дверь с прогнившими досками преграждает твой дальнейший путь. <strong>Расчет сложности</strong>: Если персонажи решают выломать ее, то сложность такой проверки будет 1(4), так как прогнившие доски являются облегчающим фактором для сложности проверки.</em></p></li>
+<li><p><em><strong>Описание</strong>: Лестница, по которой ты собираешься подняться, выглядит ржавой и ненадежной. <strong>Расчет сложности</strong>: Если персонаж будет подниматься по ней, то сложность проверки будет все еще 2(5), так как лестница сама по себе облегчает подъем, снижая сложность на единицу, то ее состояние - ржавая и ненадежная, увеличивают ее.</em></p></li>
+<li><p><em><strong>Описание</strong>: Огр, впадая в бешенство, заносит здоровенную дубину, намереваясь размозжить тебе голову. <strong>Расчет сложности</strong>: Для того, чтобы противостоять огру придется пройти проверку со сложностью 4(7), так как, сами по себе огры значительно превосходят человека в размерах, да и  бешенство, также является усложняющим фактором. Без этих факторов, сложность проверки была бы 2(5).</em></p></li>
+</ul>
+<blockquote>
+<div><p><strong>Помните</strong>: Если вы, при проведении игры, затрудняетесь в выборе сложности для проверки, устанавливайте среднюю.</p>
+</div></blockquote>
+<p>Если в процессе игры фактор, влияющий на сложность, пропадает или появляется новый, то и сложность тоже меняется. Так, если уменьшить огра, то он более не будет больше человека и сложность физических взаимодействий с ним также уменьшится.</p>
+</section>
+</section>
+<section id="obstacle6">
+<span id="id6"></span><h2>Опасность препятствия<a class="headerlink" href="#obstacle6" title="Link to this heading">#</a></h2>
+<p>Опасность препятствия определяет насколько тяжелые последствия получит игрок если не достигнет полного успеха при прохождении проверки. Так, в спокойной ситуации даже провал может иметь слабые последствия — это вызвано низкой опасностью, а в напряженной ситуации и частичный успех может иметь тяжелые последствия. Как и все вышеперечисленные параметры опасность всего лишь один из инструментов для создания игровой сцены, так что используйте их по своему усмотрению.</p>
+<blockquote>
+<div><p><strong>Помните</strong>: Последствия определяют не только успешность игрока, но опасность препятствия.</p>
+</div></blockquote>
+</section>
+<section id="id7">
+<h2>Эффективность заявки<a class="headerlink" href="#id7" title="Link to this heading">#</a></h2>
+<p>Все ли заявки игрока во время прохождения препятствия могут приводить к проверке? Конечно нет. Например, вы же не сможете простым кулаком сломать башню или кинжалом остановить армию. Для определения таких ситуаций и существует эффективность, которая определяет, как скоро действия игрока приведут к желаемому результату. Ниже приведены четыре основные категории эффективности:</p>
+<ul class="simple">
+<li><p><strong>Неэффективно</strong> — персонаж не способен добиться хоть какого-нибудь результата даже в случае успеха. В этом случае <strong>Мастер</strong>, не назначает проверку.</p></li>
+<li><p><strong>Низкая эффективность</strong> — персонаж может добиться результата, но это будет сопряжено с большими затратами ресурсов или времени.</p></li>
+<li><p><strong>Обычная эффективность</strong> — персонаж может добиться успеха без дополнительных затрат времени и ресурсов.</p></li>
+<li><p><strong>Высокая эффективность</strong> — удачно подобранные ресурсы и экипировка может приводить к повышению эффективности, в этом случае игрок завершит быстрее задуманное и потратит меньше ресурсов. В этом случае Мастер не должен давать дополнительные проверки для преодоления препятствия.</p></li>
+</ul>
+<blockquote>
+<div><p><em><strong>Пример</strong>: Персонаж игрока хочет разрушить каменную стену, в обычных обстоятельствах это нельзя сделать просто так - бить кулаком неэффективно, поэтому Мастер даже не назначает проверку. Если игрок решил использовать молоток, чтобы дробить стену - это низкая эффективность и персонаж потратит много времени, потихоньку разрушая камень. Если игрок решил использовать кувалду - это обычная эффективность, такой инструмент отлично подходят для разрушения каменных стен.</em></p>
+</div></blockquote>
+<p>На эффективность кроме логики происходящего могут влиять еще два фактора — это масштаб и перевес. Масштаб определяет, насколько грандиозно по своим размерам задуманное игроком по отношению к самому игроку. Опять же вернемся к разрушению башни кулаком или попытке убить дракона простым мечом.
+Перевес определяет насколько противник превосходит или уступает количеством персонажам игроков. Про перевес подробнее можно прочитать <a class="reference internal" href="battle_massive.html#massive2"><span class="std std-ref">здесь</span></a>.</p>
+<p><strong>Мастер</strong> должен уведомить игрока об изменении эффективности до совершения проверки, чтобы дать возможность правильно оценить затраты ресурсов. Если эффективность не оговаривается, то по умолчанию подразумевается обычная эффективность.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">РИВЕР НРИ</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="aftermath.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Последствия</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Бросок и его результаты</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Преимущества и помехи</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#obstacle4">Сложность препятствия</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Определение сложности</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#obstacle6">Опасность препятствия</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Эффективность заявки</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Спящая Мантикора (Sleeping Manticora)
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

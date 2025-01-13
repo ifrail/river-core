@@ -1,11 +1,27 @@
-# Welcome to your Jupyter Book
-
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
-
-Check out the content pages bundled with this sample book to see more.
-
-```{tableofcontents}
+```{image} ./img/cover.jpg
+:alt: cover
+:align: center
 ```
+
+# РИВЕР НРИ
+
+```{image} ./img/river-logo.png
+:alt: logo
+:class: bg-primary
+:align: center
+```
+
+**РАЗРАБОТЧИКИ СИСТЕМЫ**    
+**Виталий Сайдин**, **Мария Кафка**
+
+**АВТОР ТЕКСТА**    
+**Виталий Сайдин**
+
+**ВЫЧИТКА И РЕДАКТУРА**    
+**Мария Кафка**
+
+**ХУДОЖНИК-ИЛЛЮСТРАТОР**    
+**Мария Кафка**
+
+Спасибо **Кириллу Голубеву**, **Александре Кульчицкой**, **Артему Мартыновичу**, **Павлу Кашинкину**, **Владимиру Пестрякову**, **Марии Медведевой**, оказавшим неоценимую помощь поддержкой, советами и тестированием.
+А так же, сердечно благодарим всех мастеров клуба "Спящая Мантикора", которые несколько лет водили свои приключения по нашей системе!
