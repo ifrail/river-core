@@ -12,6 +12,7 @@ parts:
     - file: player_interaction
     - file: personality_scale
     - file: addon_milestones
+    - file: addon_equip
   - caption: Создание персонажа
     chapters:
     - file: pers_idea
