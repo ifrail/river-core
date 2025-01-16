@@ -1,15 +1,10 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Ривер
+title: Ривер НРИ
 author: Спящая Мантикора (Sleeping Manticora)
 logo: logo.png
-
-sphinx:
-  config:
-    html_show_copyright: false
-  html_context:
-    default_mode: dark
+copyright: "2017-2025"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -37,8 +32,10 @@ html:
   favicon: favicon.png
   use_issues_button: false
   use_repository_button: false
-  html:
-    extra_footer: |
-        <p>Данный материал распространяется на условиях Creative Commons «Attribution-NonCommercial-ShareAlike» («Атрибуция-Некоммерчески-
-           СохранениеУсловий») 4.0 Всемирная (CC BY-NC-SA 4.0). Чтобы получить копию лицензии, перейдите по ссылке https://creativecommons.org/licenses/by-nc-sa/4.0
-        </p>
+  extra_footer: Данный материал распространяется на условиях Creative Commons «Attribution-NonCommercial-ShareAlike» <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+
+sphinx:
+  config:
+    html_show_copyright: true
+  html_context:
+    default_mode: dark
