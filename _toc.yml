@@ -33,3 +33,7 @@ parts:
     - file: magic_might
     - file: magic_direct
     - file: magic_wilds
+  - caption: Полезная информация
+    chapters:
+    - file: contacts
+    - file: resources
