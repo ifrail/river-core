@@ -1,6 +1,6 @@
 # Контакты
 
-**Телеграм Ривер**: https://t.me/+adPga5p4KZ9iNDA6    
+**Телеграм Ривер**: https://t.me/river_rpg   
 **Boosty**: https://boosty.to/river_rpg
 
 ## О нас
