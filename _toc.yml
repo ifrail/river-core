@@ -35,5 +35,6 @@ parts:
     - file: magic_wilds
   - caption: Полезная информация
     chapters:
+    - file: wats_new
     - file: contacts
     - file: resources
